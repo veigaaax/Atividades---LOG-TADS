@@ -30,12 +30,12 @@ public class Ex10 {
         qtPagantes = in.nextInt();
         
         qtPessoas = qtCriancas + qtPagantes + qtSocios; //quantas pessoas estao presentes no evento ESTA CORRETO 
-        valorIngressoDesconto = (valorIngressoIntegral * desconto); // somente o valor de desconto 
-        ingressoSocioValorFinal = (valorIngressoIntegral - valorIngressoDesconto); // valor final com o desconto
+        valorIngressoDesconto = (valorIngressoIntegral * desconto); // somente o valor de desconto ESTA CORRETO
+        ingressoSocioValorFinal = (valorIngressoIntegral - valorIngressoDesconto); // valor final com o desconto CORRETO
         lucroSocio = ingressoSocioValorFinal * qtSocios; // a quantidade arrecadada pelos ingressos de socios
         lucroPag = valorIngressoIntegral * qtPagantes; // a quantidade arrecadada pelos ingressos integrais
         rendaTotalDoEvento = lucroSocio + lucroPag + ingressoFree;  //lucro total
-        valorNaoArrecadado = (qtCriancas * valorIngressoIntegral) + (valorIngressoDesconto * valorIngressoIntegral);
+        valorNaoArrecadado = (qtCriancas * valorIngressoIntegral) + (valorIngressoDesconto * qtSocios);
  
         
         System.out.println("O numero de pessoas no evento sao " + qtPessoas );
@@ -49,6 +49,6 @@ public class Ex10 {
 //- Número de pessoas (público do evento) não pagantes (menores de 10anos)
 // Número de pessoas (público do evento) pagantes (sem desconto algum)
 
-
+//att
     }
 }

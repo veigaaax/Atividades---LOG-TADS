@@ -3,12 +3,9 @@ import java.util.Scanner;
 public class Ex8 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int validos, nulos, brancos, total;
-
-        validos = 0;
-        nulos = 0;
-        brancos = 0;
-        
+        int validos, nulos, brancos, total; 
+        int porVal, porNul, porBran;
+       
         System.out.println("Informe o numero de votos validos");
         validos = in.nextInt();
 
@@ -19,7 +16,14 @@ public class Ex8 {
         brancos = in.nextInt();
 
         total = validos + nulos + brancos;
-        System.out.println("O total de votos sao de: " + total );
+
+        porVal = (validos * 100)/total;
+        porNul = (nulos * 100)/total;
+        porBran = (brancos *100)/total;
+
+        System.out.println("O percentual de votos Validos sao de: " + porVal +"%");
+        System.out.println("O percentual de votos Nulos sao de: " + porNul +"%" );
+        System.out.println("O percentual de votos Brancos sao de: " + porBran +"%");
 
 
 
