@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Quadrado{
+public class Ex3{
     public static void main(String[] args) {
         Scanner in;
         in = new Scanner(System.in);

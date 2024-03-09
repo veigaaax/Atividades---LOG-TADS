@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Media{
+public class Ex6{
     public static void main (String[]args){
         Scanner in = new Scanner(System.in);
          int nt1,nt2,mdia;

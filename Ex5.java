@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Celsius{
+public class Ex5{
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
 

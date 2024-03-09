@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Trajeto{
+public class Ex7{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         float velocidade, distancia, tempo;
