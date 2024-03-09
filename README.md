@@ -4,7 +4,7 @@ Umas lista de Exercicios de Java para a Cadeira de Logica de Programação
 
 ## 🎁 Expressões de gratidão
 
-* Expressa gratidão pelo Prof. Vinicius Fritzen Machado, por auxiliar e explicar sobre lógica de programação! [Prof.Vinicius](@https://github.com/vfmachado)
+* Expressa gratidão pelo Prof. Vinicius Fritzen Machado, por auxiliar e explicar sobre lógica de programação! [Vinícius Fritzen Machado](@https://github.com/vfmachado)
 
 ---
 ⌨️ com ❤️ por [Jovana](https://gist.github.com/veigaaax) 😊
