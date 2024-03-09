@@ -5,7 +5,7 @@ public class Celsius{
 
         int vcelsius,vfahrenheit,resultado;
         vcelsius = 0;
-        vfahrenheit =-0;
+        vfahrenheit =0;
 
         System.out.println("Digite a temperatura em Celsius");
         vcelsius = in.nextInt();
